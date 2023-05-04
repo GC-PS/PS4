@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GC-PS4", ".", "{6C183525-EA
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_56473"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\GC-PS4\"
+		Debug.AspNetCompiler.PhysicalPath = "..\GC-PS4\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56473\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_56473"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\Desktop\GC-PS4\"
+		Release.AspNetCompiler.PhysicalPath = "..\GC-PS4\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56473\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "56473"
+		SlnRelativePath = "..\GC-PS4\"
 	EndProjectSection
 EndProject
 Global
