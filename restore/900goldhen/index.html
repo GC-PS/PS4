@@ -1,30 +1,22 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>PS4 Restore Host to User's Guide for 9.00 FW</title>
-	<link rel="stylesheet" href="../../style.css">
-	<script src="int64.js"></script>
-	<script src="rop.js"></script>
-	<script src="kexploit.js"></script>
-	<script src="webkit.js"></script>
+<title>PS4 Restore Host for 9.00 FW</title>
+<link rel="stylesheet" href="../../style.css">
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
 </head>
 <body onload="setTimeout(poc, 50);">
-<h1 id="msgs">PS4 Restore Host to User's Guide for 9.00 FW</h1>
+<h1>PS4 Restore Host for 9.00 FW</h1>
 <hr>
 <br>
-<div id="jb-progress">
-<h1 style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;"> Loading Payload... Please Wait </h1>
-</div>
-<div id="main-section" style="display: none">
-<h1 style="font-size: 30px;margin-top: 77px;margin-bottom: 391px;"> Payload Loaded ... </h1>
-<br>
-</div>
-<h1 style="color:white; text-align:center;"><a href="https://itfy-edu.net/GC/" style="color:white; text-align:right;">صنعاء - شارع الستين - جولة الولاعة - خلف المدينة الليبية ت/778284118-775776703</a></h1>
+<h1 id="msgs" style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">Loading Payload... Please Wait</h1>
+<h1 style="margin-top: 43px;">Designed by:<a href="https://twitter.com/GamerHack93" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@GamerHack93</a>A special thanks to all the devs on the scene.</h1>
 <script>
 function allset(){
-	document.getElementById("main-section").style.display = "block";
-	document.getElementById("jb-progress").style.display = "none";
+msgs.innerHTML = LoadedMSG
 }
 
 function load_poc(){
@@ -51,8 +43,9 @@ function load_poc(){
 }
 
 function jbdone(){
-	PLfile = "payload.bin";
-	setTimeout(load_poc, 500);
+LoadedMSG = "Payload Loaded ...";
+PLfile = "payload.bin";
+setTimeout(load_poc, 500);
 }
 </script>
 </body>
