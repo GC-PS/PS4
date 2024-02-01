@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest">
 <head>
-<title>PS4 9.00 FW Host v2.8 by GamerHack | Manual Exploitation</title>
+<meta charset="utf-8">
+<title>PS4 9.00 FW Host v2.8 by Gaming City | Manual Exploitation</title>
 <link rel="stylesheet" href="../style.css">
 <script src="int64.js"></script>
 <script src="rop.js"></script>
@@ -13,7 +14,7 @@
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));for (let i=0; i<57; i++){document.getElementsByTagName("button")[i].removeAttribute("onmouseover");}for (let i=0; i<57; i++){document.getElementsByTagName("button")[i].removeAttribute("onmouseout");}window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
-<h1 id="msgs">PS4 9.00 FW Host v2.8 by GamerHack</h1>
+<h1 id="msgs">PS4 9.00 FW Host v2.8 by Gaming City</h1>
 <hr>
 <br>
 <div id="menu">
@@ -96,7 +97,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <br>
 <button class="btn" onmouseover="msgs.innerHTML='Return to Main Menu'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by GamerHack'" onclick="load_menu()" style="margin-bottom: 167px"> Return </button>
 </div>
-<h1 style="margin-top: 55px;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@sleirsgoevy</a>ChendoChap<a href="https://twitter.com/Znullptr" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@Znullptr</a>SiSTR0</h1>
+<h1 style="color:white; text-align:center;"><a href="https://itfy-edu.net/GC/" style="color:white; text-align:right;">صنعاء - شارع الستين - جولة الولاعة - خلف المدينة الليبية ت/778284118-775776703</a></h1>
 <script>
 sessionStorage.setItem("exploit","no");
 sessionStorage.setItem("netcat","no");
